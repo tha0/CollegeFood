@@ -1,22 +1,23 @@
 body{
     background-color: #f3f3f3;
-    margin-left: auto;
+    margin-left: 10px;
     margin-right: auto;
-    margin-top: 25px;
+    margin-top: 10px;
     width: 1000px;
 }
 
 #logoMeny{
     width: 200px;
-    height:1000px;        /*senere auto, skal bare se hvordan det ser ut*/
-    background-color: pink;    /*for å se hvordan det ser ut. vi skal ikke ha bakgrunnsfarge*/
+    height: 1000px;/*senere auto, skal bare se hvordan det ser ut*/
+    background-color: pink;/*for å se hvordan det ser ut. vi skal ikke ha bakgrunnsfarge*/
+    margin-top: 25px; 
 }
 
 main#innhold{
 	position: absolute;
     margin-left: 200px;
     top: 25px;
-    width: 850px;
+    width: 1028px;
     height: 1000px;
     background-color:white;
 	padding:15px;
