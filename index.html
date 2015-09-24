@@ -8,32 +8,23 @@
 	</head>
 
 	<body>
-       
-       <!-- Dette er en font jeg la til, w3schools lærte meg(den burde egentlig vært i CSS iksant?-->
-        <style> 
-@font-face {
-    font-family: DIN Alternate;
-    src: url(DIN Alternate.ttf);
-}
-
-div {
-    font-family: DIN Alternate;
-}
-</style>
-
-	    <div> <!-- skal inneholde logo, søkemotor, meny og innhold-->
-	        <div id="logoMeny"> <!-- her skal logoen og menyen være -->
+	    <!-- Diven rundt hele innholdet -->
+        <div id="nettside">
+            <div id="logoMeny"> <!-- her skal logoen,søkemotoren og menyen være -->
+                <br/>
                 <div id="logo"><img src="logo.png" alt="logo" width="150px" height="150px"></div>
-                
+                <br/>
                 
                 <!-- Søkemotoren-->
-                 <div class="search">
-        <form action="#">
-        <input type = "text" name="search" placeholder="Hva leter du etter?"/>
-        <input type = "submit" value="Søk her"
-               </form>
-    </div>
-                <br>
+                <div class="search">
+                    <form action="#">
+                        <input type = "text" name="search" placeholder="Hva leter du etter?">
+                        <button type="button" id="btnSok">SØK</button>
+                    </form>
+                </div>
+                
+                <br/>
+                
                 Meny
                 <nav>
                     <ul> <!-- Skal vi gjøre om linkene til disse, til "knapper?" altså et bilde isteden? :)-->
@@ -46,16 +37,19 @@ div {
                 </nav>
             </div>
             
-            <main id="innhold"> <!-- her skal bilder og matoppskrifter osv. være-->
-                her kommer innholdet for college mat :)
-                funker dette?
-                ja, det funker tror jeg.
+            <!-- Innhold -->
+            <main id="innhold"> 
+                <div id="visning"> <!-- her skal bilder og oppskriften vises-->
+                    her vises bilde av maten og oppskriften. 
+                </div>
+                
+                <div>
+                    her kommer oppskrift 1
+                </div>
             </main>
-	        
-	    </div>
-
-
+        </div>
+        
+            <footer>footer</footer>
+        </div>
 	</body>
-    
-    <footer>footer</footer>
 </html>
