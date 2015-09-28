@@ -1,5 +1,9 @@
 body{
-    background-color: #f3f3f3;
+    background-color: powderblue;
+}
+
+.meny{
+    color: white;
 }
 
 #nettside{
@@ -31,7 +35,7 @@ main#innhold{
 div#visning{
     margin-left: auto;
     margin-right: auto;
-    background-color: red;
+    background-color: palegreen;
     width: 720px;
     height: auto;
 }
@@ -42,4 +46,65 @@ footer{
     margin-right: auto;
     width:1100px;
     height: 50px;
+}
+
+nav{
+    margin-left:  -20px;
+    margin-right: auto;
+    line-height:40px;
+	font-size:16px;
+	color:pink;
+	z-index:2;
+    width: 250px;
+}
+
+/*velger alle ul i nav*/
+nav ul { 
+	list-style:none; 
+    text-align: center;
+}
+
+/* gir alle linker en grønnlinje*/
+nav ul a{
+	border-bottom:2px solid palegreen;
+}
+
+/*alle ul i ul i nav, skjules*/
+nav ul li ul{
+	display:none;
+    position: absolute;
+}
+
+/*når vi har musepekeren over li, så vil ul få følgende egenskaper: */
+ul > li:hover > ul{
+	display:block;
+	z-index:2;
+	width:200px;
+    margin-left: 180px;
+    margin-top: -42px;
+}
+
+/*besøkte og ubesøkte linker*/
+nav ul li a:link, a:visited{ 
+	text-decoration:none;
+	color:grey;
+	background-color:powderblue;
+	display:block;
+}
+
+/*aktiv link og når vi har musepekeren over*/
+nav ul li a:hover{ 
+	text-decoration:none;
+	background-color: white;
+    color: lightgray;
+	display:block;
+}
+
+a:link, a:visited{
+	text-decoration:none;
+	color:white;
+}
+
+a:hover, a:active{
+	color:white;
 }
