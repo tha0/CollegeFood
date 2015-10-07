@@ -1,6 +1,6 @@
 body{
     background-color: #657D9B;
-    font-family: Helvetica;
+    font-family: Times New Roman;/*Helvetica;*/
 }
 
 .meny{
@@ -41,8 +41,7 @@ div#visning{
     height: auto;
 }
 
-/* FOOOOOOOOTER /*/
-
+/* FOOOOOOOOTER */
 footer {
     width: 100%;
     height: 400px;
@@ -51,17 +50,16 @@ footer {
 }
 
 #foot{
-     width: 1000px;
+    width: 1000px;
     height: 100%;
-    margin: 0 auto;
-      
-}
-a.linkMail {
-    color: black;
-    
+    margin: 0 auto;     
 }
 
-h3 {
+a.linkMail {
+    color: black;
+}
+
+h3{
     color:black;
 }
 
@@ -108,7 +106,7 @@ textarea.message {
     width:1100px;
     height: 20px;
     bottom: 0;
-} /*/
+} */
 
 img.inspoBildeEgenskaper{
     width: 300px;
@@ -116,11 +114,11 @@ img.inspoBildeEgenskaper{
     padding: 10px;
 }
 
-img.inspoBildeEgenskaper:hover{
+
+img.skoene{
     width: 300px;
-    height: 450px;
+    height: 433px;
     padding: 10px;
-    background-color: #434343;
 }
 
 .overskrift{
@@ -198,7 +196,8 @@ a:link, a:visited{
 }
 
 a:hover, a:active{
-	color:white;
+    text-decoration:none;
+    color:white;
 }
 
 p {
@@ -206,8 +205,8 @@ p {
     font-size: 15px;
 }
 
-/* HOVER OVER NAV /*/
-nav ul li a.knappi {
+
+nav ul li a{
     width: 210px;
     -webkit-transition:all .6s;
     background: #333;
