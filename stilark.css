@@ -51,7 +51,7 @@ footer {
 }
 
 #foot{
-     width: 1000px;
+    width: 1000px;
     height: 100%;
     margin: 0 auto;
       
@@ -114,6 +114,12 @@ input.submit {
 img.inspoBildeEgenskaper{
     width: 300px;
     height: 450px;
+    padding: 10px;
+}
+
+img.skoene{
+    width: 300px;
+    height: 433px;
     padding: 10px;
 }
 
