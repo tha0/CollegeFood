@@ -9,3 +9,4 @@ function test()
 {
     document.getElementById("visning").innerHTML = "<img src=\"test.png\" alt=\"navnrett\">" + "<br/>";
 }
+

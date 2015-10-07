@@ -1,6 +1,6 @@
 body{
     background-color: #657D9B;
-    font-family: Times New Roman;
+    font-family: Times New Roman;/*Helvetica;*/
 }
 
 .meny{
@@ -41,8 +41,7 @@ div#visning{
     height: auto;
 }
 
-/* FOOOOOOOOTER /*/
-
+/* FOOOOOOOOTER */
 footer {
     width: 100%;
     height: 400px;
@@ -53,27 +52,30 @@ footer {
 #foot{
     width: 1000px;
     height: 100%;
-    margin: 0 auto;
-      
+    margin: 0 auto;     
 }
 
-h3 {
+a.linkMail {
+    color: black;
+}
+
+h3{
     color:black;
 }
 
 div.sosialt {
     float: left;
-    margin-top: 40px;
+    margin-top: 200px;
 }
 
 a.sosialt {
-    margin-right: 30px;
+    margin-right: 10px;
 }
 
 div.kontakt {
     float: right;
     margin-right: 145px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 input.text{
@@ -90,14 +92,9 @@ textarea.message {
     border: none;
 }
 
-input.submit {
-    width: 30px;
-    height: 15px;
-    background-color: white;
-    color: black;
-}
 
-/*footer{
+
+/*footer{ 
     position: fixed;
     margin-left: auto;
     margin-right: auto;
@@ -109,13 +106,14 @@ input.submit {
     width:1100px;
     height: 20px;
     bottom: 0;
-} /*/
+} */
 
 img.inspoBildeEgenskaper{
     width: 300px;
     height: 450px;
     padding: 10px;
 }
+
 
 img.skoene{
     width: 300px;
@@ -186,6 +184,7 @@ nav ul li a:link, a:visited{
 /*aktiv link og når vi har musepekeren over*/
 nav ul li a:hover{ 
 	text-decoration:none;
+    -webkit-transition:all .6s;
 	background-color: #d6d6d6;
     color: white;
 	display:block;
@@ -197,5 +196,29 @@ a:link, a:visited{
 }
 
 a:hover, a:active{
-	color:white;
+    text-decoration:none;
+    color:white;
+}
+
+p {
+    font-family: Helvetica;
+    font-size: 15px;
+}
+
+
+nav ul li a{
+    width: 210px;
+    -webkit-transition:all .6s;
+    background: #333;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px rgba(0,0,0,.5), 1px 1px 5px rgba(o,o,o,.3;)
+        
+}
+a.knappi:hover{
+    background: #e3e3e3;
+    color: #333;
 }
