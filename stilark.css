@@ -258,11 +258,14 @@ img.sneakers{
     left: 0px; 
     bottom: 0px;
     padding: 2px 0px; 
-    color: black; 
-    background: grey; 
-    text-align: center; 
-    font-weight:bold; } 
+    color: whitesmoke; 
+    background: black; 
+    text-align: auto; 
+    font-weight:bold; 
+    font-size: 30px;
+    font-family: Helvetica;
+} 
 .imageHolder:hover .caption { 
-    opacity: 0.3; 
+    opacity: 0.8; 
 }
 
