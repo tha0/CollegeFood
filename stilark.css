@@ -119,7 +119,12 @@ img.inspoBildeEgenskaper{
     height: 450px;
     padding: 10px;
 }
-
+img.inspoBildeEgenskaper:hover{
+    width: 300px;
+    height: 450px;
+    padding: 10px;
+    background-color: #434343;
+}
 
 img.skoene{
     width: 300px;
@@ -235,14 +240,6 @@ img.sneakers{
     padding: 10px;
 }
 
-/* DETTE ER HOVER OVER BILDET!
-img.sneakers:hover{
-    width: 220px;
-    height: 180px;
-    padding: 10px;
-    background-color: #434343;
-}
-/*/
 
 
 /* Hover over bildene, med tekst!/*/
