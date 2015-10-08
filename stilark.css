@@ -1,3 +1,10 @@
+@media only screen and (orientation: landscape)
+{
+    body 
+    { 
+        background-color: #000000; }
+}
+
 body{
     background-color: #657D9B;
     font-family: Times New Roman;/*Helvetica;*/
@@ -49,10 +56,6 @@ footer {
     background-color: #d6d6d6;
     margin-bottom: 10px;
     margin-top: 30px;
-   
-
-    
-
 }
 
 #foot{
@@ -98,8 +101,6 @@ textarea.message {
     border: none;
 }
 
-
-
 /*footer{ 
     position: fixed;
     margin-left: auto;
@@ -114,26 +115,8 @@ textarea.message {
     bottom: 0;
 } */
 
-img.inspoBildeEgenskaper{
-    width: 300px;
-    height: 450px;
-    padding: 10px;
-}
-img.inspoBildeEgenskaper:hover{
-    width: 300px;
-    height: 450px;
-    padding: 10px;
-    background-color: #434343;
-}
-
-img.skoene{
-    width: 300px;
-    height: 433px;
-    padding: 10px;
-}
-
 .overskrift{
-    font-family: times new roman;
+    font-family: Times New Roman;
     font-size: 35px;
     margin-top: 30px;
     text-transform: uppercase;
@@ -234,13 +217,20 @@ a.knappi:hover{
     color: #333;
 }
 
-img.sneakers{
+img.inspoBildeEgenskaper{
+    width: 300px;
+    height: 450px;
+    padding: 10px;
+}
+img.inspoBildeEgenskaper:hover{
+    background-color: #434343;
+}
+
+img.sko{
     width: 220px;
     height: 180px;
     padding: 10px;
 }
-
-
 
 /* Hover over bildene, med tekst!/*/
 .imageHolder { 
@@ -251,21 +241,23 @@ img.sneakers{
 
 .imageHolder .caption { 
     opacity: 0; 
+    text-transform: uppercase;
     position:absolute; 
     height:180px; 
     width: 220px; 
     top: 0px; 
-    left: 0px; 
+    left: 10px; 
     bottom: 0px;
     padding: 2px 0px; 
     color: whitesmoke; 
     background: black; 
     text-align: auto; 
     font-weight:bold; 
-    font-size: 30px;
+    font-size: 25px;
     font-family: Helvetica;
      -webkit-transition: all 0.7s;
 } 
+
 .imageHolder:hover .caption { 
     opacity: 0.8; 
 }
