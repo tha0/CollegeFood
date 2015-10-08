@@ -56,10 +56,6 @@ footer {
     background-color: #d6d6d6;
     margin-bottom: 10px;
     margin-top: 30px;
-   
-
-    
-
 }
 
 #foot{
@@ -105,8 +101,6 @@ textarea.message {
     border: none;
 }
 
-
-
 /*footer{ 
     position: fixed;
     margin-left: auto;
@@ -121,26 +115,8 @@ textarea.message {
     bottom: 0;
 } */
 
-img.inspoBildeEgenskaper{
-    width: 300px;
-    height: 450px;
-    padding: 10px;
-}
-img.inspoBildeEgenskaper:hover{
-    width: 300px;
-    height: 450px;
-    padding: 10px;
-    background-color: #434343;
-}
-
-img.skoene{
-    width: 300px;
-    height: 433px;
-    padding: 10px;
-}
-
 .overskrift{
-    font-family: times new roman;
+    font-family: Times New Roman;
     font-size: 35px;
     margin-top: 30px;
     text-transform: uppercase;
@@ -241,6 +217,24 @@ a.knappi:hover{
     color: #333;
 }
 
+img.inspoBildeEgenskaper{
+    width: 300px;
+    height: 450px;
+    padding: 10px;
+}
+img.inspoBildeEgenskaper:hover{
+    width: 300px;
+    height: 450px;
+    padding: 10px;
+    background-color: #434343;
+}
+
+img.sko{
+    width: 220px;
+    height: 180px;
+    padding: 10px;
+}
+
 img.sneakers{
     width: 220px;
     height: 180px;
@@ -256,7 +250,6 @@ img.hverdagsskoherre{
     height: 180px;
     padding: 10px;
 }
-
 
 /* Hover over bildene, med tekst!/*/
 .imageHolder { 
