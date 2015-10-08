@@ -223,29 +223,10 @@ img.inspoBildeEgenskaper{
     padding: 10px;
 }
 img.inspoBildeEgenskaper:hover{
-    width: 300px;
-    height: 450px;
-    padding: 10px;
     background-color: #434343;
 }
 
 img.sko{
-    width: 220px;
-    height: 180px;
-    padding: 10px;
-}
-
-img.sneakers{
-    width: 220px;
-    height: 180px;
-    padding: 10px;
-}
-img.penskoherre{
-    width: 220px;
-    height: 180px;
-    padding: 10px;
-}
-img.hverdagsskoherre{
     width: 220px;
     height: 180px;
     padding: 10px;
@@ -264,16 +245,17 @@ img.hverdagsskoherre{
     height:180px; 
     width: 220px; 
     top: 0px; 
-    left: 0px; 
+    left: 10px; 
     bottom: 0px;
     padding: 2px 0px; 
     color: whitesmoke; 
     background: black; 
     text-align: auto; 
     font-weight:bold; 
-    font-size: 30px;
+    font-size: 25px;
     font-family: Helvetica;
 } 
+
 .imageHolder:hover .caption { 
     opacity: 0.8; 
 }
