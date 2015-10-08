@@ -264,8 +264,74 @@ img.sneakers{
     font-weight:bold; 
     font-size: 30px;
     font-family: Helvetica;
+     -webkit-transition: all 0.7s;
 } 
 .imageHolder:hover .caption { 
     opacity: 0.8; 
 }
 
+/* !!!!!!!! Bare en test foreløpig !!!!!!!! /*/
+
+img.sneakers{
+    width: 220px;
+    height: 180px;
+    padding: 0px;
+}
+
+
+
+/* Hover over bildene, med tekst!/*/
+.imageHolder2 { 
+    position: relative; 
+    width: 220px; 
+    height: 180px; 
+} 
+
+.imageHolder2 .caption2 { 
+    opacity: 0; 
+    position:absolute; 
+    height:180px; 
+    width: 220px; 
+    top: 0px; 
+    left: 0px; 
+    bottom: 0px;
+    padding: 2px 0px; 
+    color: whitesmoke; 
+    background: black; 
+    text-align: auto; 
+    font-weight:bold; 
+    font-size: 30px;
+    font-family: Helvetica;
+} 
+.imageHolder2:hover .caption2 { 
+    opacity: 0.8; 
+}
+
+/* Hover over bildene, med tekst!/*/
+
+
+.imageHolder3 { 
+    position: relative; 
+    width: 220px; 
+    height: 180px; 
+} 
+
+.imageHolder3 .caption3 { 
+    opacity: 0; 
+    position:absolute; 
+    height:180px; 
+    width: 220px; 
+    top: 0px; 
+    left: 0px; 
+    bottom: 0px;
+    padding: 2px 0px; 
+    color: whitesmoke; 
+    background: black; 
+    text-align: auto; 
+    font-weight:bold; 
+    font-size: 30px;
+    font-family: Helvetica;
+} 
+.imageHolder3:hover .caption3 { 
+    opacity: 0.8; 
+}
