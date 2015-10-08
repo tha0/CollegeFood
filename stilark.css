@@ -1,3 +1,10 @@
+@media only screen and (orientation: landscape)
+{
+    body 
+    { 
+        background-color: #000000; }
+}
+
 body{
     background-color: #657D9B;
     font-family: Times New Roman;/*Helvetica;*/
