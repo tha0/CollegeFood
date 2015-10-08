@@ -241,6 +241,7 @@ img.sko{
 
 .imageHolder .caption { 
     opacity: 0; 
+    text-transform: uppercase;
     position:absolute; 
     height:180px; 
     width: 220px; 
