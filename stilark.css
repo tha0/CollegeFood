@@ -239,7 +239,16 @@ img.sneakers{
     height: 180px;
     padding: 10px;
 }
-
+img.penskoherre{
+    width: 220px;
+    height: 180px;
+    padding: 10px;
+}
+img.hverdagsskoherre{
+    width: 220px;
+    height: 180px;
+    padding: 10px;
+}
 
 
 /* Hover over bildene, med tekst!/*/
