@@ -41,14 +41,6 @@ main#innhold{
     margin-top: -1000px;
 }
 
-div#visning{
-    margin-left: auto;
-    margin-right: auto;
-    background-color: palegreen;
-    width: 720px;
-    height: auto;
-}
-
 /* FOOOOOOOOTER */
 footer {
     width: 100%;
