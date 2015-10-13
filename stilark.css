@@ -238,7 +238,7 @@ img.sko{
 .imageHolder:hover .caption { 
     opacity: 0.8; 
 }
-
+/*
 }
 @media all and (max-width: 400px) {
 
@@ -274,7 +274,7 @@ img.sko{
 		padding-left:25px;
 	}
 
-/*
+
 }
 @media all and (max-width: 400px) {
 
