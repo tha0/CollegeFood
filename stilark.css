@@ -1,9 +1,4 @@
-/*@media only screen and (orientation: landscape)
-{
-    body 
-    { 
-        background-color: #000000; }
-}*/
+@media all and (min-width: 960px) {
 
 
 body{
@@ -242,4 +237,72 @@ img.sko{
 
 .imageHolder:hover .caption { 
     opacity: 0.8; 
+}
+
+}
+@media all and (max-width: 400px) {
+
+	.container {
+		width: 100%;
+		background-color: #FFF;
+		border:none;
+		border-radius: 0px 0px 0px 0px;
+		margin:0px;
+		padding:0px;
+		box-shadow: none;
+
+	}
+	
+	body
+	{
+		font-size:normal;
+	}
+	
+	nav {
+
+		padding: 0px;
+		margin: 5px;
+	}
+	
+	footer {
+		margin-left:-5px;
+		margin-right:-5px;
+		margin-bottom:-5px;
+		background: none;
+		border-radius: 0px;
+		padding:5px;
+		padding-left:25px;
+	}
+
+
+}
+@media all and (max-width: 400px) {
+
+	.container {
+		width: 100%;
+		background-color: #FFF;
+		border:none;
+		border-radius: 0px 0px 0px 0px;
+		margin:0px;
+		padding:0px;
+		box-shadow: none;
+
+	}
+	
+	body
+	{
+		font-size:normal;
+	}
+	
+	nav {
+
+		padding: 0px;
+		margin: 5px;
+	}
+	
+	footer {
+        display:none;
+	}
+
+
 }
