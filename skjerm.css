@@ -1,0 +1,151 @@
+@media screen and (min-width:320px) and (max-width:480px) /*mobilversjon*/
+{
+    #nettside{
+        width: 100%;
+        height: auto;
+        margin-top: 0px;
+    }
+
+    #logoMeny{
+        width: 100%;
+        height: 1200px;
+    }
+
+    main#innhold{
+        margin-top: -1000px;
+        margin-left: 0px;
+        width: 92%;
+        height: auto;
+    }
+
+    footer {
+        width: 100%;
+        height: auto;
+        background-color: #d6d6d6;
+        font-size:0.7em;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    
+    #foot{
+        width: 100%;
+        height: 100%; 
+        margin-left: auto;
+        margin-right: auto;
+    }  
+    
+    #bilde1forside, #bilde2forside{
+        width: 80%;
+        height: 80%;
+    }
+
+    #logo{
+        margin-left: -260px;
+        margin-top: 5px;
+        width: 29%;
+        height: 29%;
+    }
+    
+    .search{
+        margin-left: 50px;
+        margin-top: -50px;
+    }
+    
+    nav{
+        position: relative;
+        margin-left: -40px;
+        margin-top: -50px;
+        /*margin-left: 130px;
+        margin-top: -213px;*/
+        line-height:30px;
+	    font-size:0.5em;
+        width: 450px;
+    }
+    
+    nav ul li{
+        float: left;
+    }
+    
+    ul > li:hover > ul{
+	    width:90px;
+        margin-left: -40px;
+        margin-top: 0px;
+    }
+    
+    nav ul li a{
+        width: 90px;
+        line-height: 20px;
+        display: block;
+    }
+    
+    hr{
+        width: 100%;
+    }
+    
+    .meny{
+        color: transparent;
+    }
+    
+    h3{
+        font-size:1.5em;
+    }
+    
+    p{
+        font-size:1em;
+    }
+    
+    div.kontakt {
+        margin-left:25%;
+        margin-top: 30px;
+        float: none;
+    }
+    
+    div.sosialt {
+        text-align: center;
+        margin-left: 50px;
+        float: none;
+        margin-top: 0px;
+        height: auto;
+        padding: 10px;
+    }
+    
+    input.text{
+        height: 20px;
+        width: 250px;
+        border-radius: 3px;
+        border: none;
+    }
+
+    textarea.message {
+        height: 50px;
+        width: 250px;
+        border-radius: 3px;
+    }
+    
+    img.sko{
+        width: 125px;
+        height: 103px;
+        padding: 10px;
+    }
+    
+    .imageHolder { 
+        position: relative;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 125px; 
+        height: 103px; 
+        padding: 20px;
+    } 
+
+    .imageHolder .caption { 
+        opacity: 0; 
+        text-transform: uppercase;
+        position: absolute;
+        height:130px; 
+        width: 150px; 
+        left: 15px; 
+        font-size: 15px;
+    } 
+    
+}
