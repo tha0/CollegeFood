@@ -1,11 +1,3 @@
-/*@media only screen and (orientation: landscape)
-{
-    body 
-    { 
-        background-color: #000000; }
-}*/
-
-
 body{
     background-color: #657D9B;
     font-family: Times New Roman;
@@ -34,7 +26,7 @@ main#innhold{
     position: static;
     margin-left: 250px;
     top: 30px;
-    width: 820px;
+    width: 730px;
     height: auto;
     background-color:white;
 	padding:15px;
@@ -44,21 +36,12 @@ main#innhold{
 
 /* FOOOOOOOOTER */
 footer {
-    width: 100%;
-    height: 400px;
+    margin-left: 30px;
+    width: 980px;
+    height: 300px;
     background-color: #d6d6d6;
     margin-bottom: 10px;
     margin-top: 30px;
-}
-
-#foot{
-    width: 1000px;
-    height: 100%;
-    margin: 0 auto;     
-}
-
-a.linkMail {
-    color: black;
 }
 
 h3{
@@ -67,8 +50,9 @@ h3{
 }
 
 div.sosialt {
+    margin-left: 30px;
+    margin-top: 110px;
     float: left;
-    margin-top: 200px;
 }
 
 a.sosialt {
@@ -77,20 +61,20 @@ a.sosialt {
 
 div.kontakt {
     float: right;
-    margin-right: 145px;
-    margin-top: 30px;
+    margin-right: 80px;
+    margin-top: 10px;
 }
 
 input.text{
-    height: 30px;
-    width: 250px;
+    height: 20px;
+    width: 200px;
     border-radius: 3px;
     border: none;
 }
 
 textarea.message {
-    height: 100px;
-    width: 250px;
+    height: 50px;
+    width: 200px;
     border-radius: 3px;
     border: none;
 }
@@ -106,7 +90,7 @@ textarea.message {
 hr{
 	border:0;
 	width: 500px;
-	height:1px;
+	height:2px;
 	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(220, 220, 220, 0.75), rgba(0, 0, 0, 0));
 	/*https://css-tricks.com/examples/hrs/*/
 }
@@ -138,15 +122,6 @@ nav ul li ul{
     position: absolute;
 }
 
-/*når vi har musepekeren over li, så vil ul få følgende egenskaper: */
-ul > li:hover > ul{
-	display:block;
-	z-index:2;
-	width:200px;
-    margin-left: 180px;
-    margin-top: -42px;
-}
-
 /*besøkte og ubesøkte linker*/
 nav ul li a:link, a:visited{ 
 	text-decoration:none;
@@ -175,71 +150,50 @@ a:hover, a:active{
 }
 
 p {
-    font-family: Helvetica;
+    font-family: Times New Roman;
     font-size: 15px;
 }
 
-
-nav ul li a{
-    width: 210px;
-    -webkit-transition:all .6s;
-    background: #333;
-    line-height: 40px;
-    text-align: center;
-    font-weight: bold;
-    color: whitesmoke;
-    border-radius: 5px;
-    box-shadow: 0px 0px 2px rgba(0,0,0,.5), 1px 1px 5px rgba(o,o,o,.3;)
-        
-}
-
 img.inspoBildeEgenskaper{
-    width: 300px;
-    height: 450px;
+    width: 267px;
+    height: 400px;
     padding: 10px;
-}
-img.inspoBildeEgenskaper:hover{
-    background-color: #434343;
 }
 
 img.sko{
-    width: 220px;
-    height: 180px;
+    width: 150px;
+    height: 124px;
     padding: 10px;
 }
 
 .venstreStilt{
+    margin-left: 100px;
+    margin-right: 75px;
     text-align: left;
 }
 
-/* Hover over bildene, med tekst!/*/
 .imageHolder { 
     position: relative;
     display: inline-block;
-    margin: 20px;
-    width: 220px; 
-    height: 180px; 
+    margin-left:auto;
+    margin-right: auto;
+    width: 170px; 
+    height: 250px; 
 } 
 
 .imageHolder .caption { 
-    opacity: 0; 
     text-transform: uppercase;
     position: absolute;
-    height:180px; 
-    width: 220px; 
-    top: 0px; 
+    top: 140px; 
     left: 10px; 
-    bottom: 0px;
-    padding: 2px 0px; 
-    color: whitesmoke; 
-    background: black; 
+    margin-bottom: 40px;
+    color: black; 
     text-align: center; 
     font-weight:bold; 
-    font-size: 25px;
-    font-family: Helvetica;
-     -webkit-transition: all 0.7s;
+    font-size: 10px;
+    font-family: Times New Roman;
 } 
 
-.imageHolder:hover .caption { 
-    opacity: 0.8; 
+@page{
+    padding: 20px;
 }
