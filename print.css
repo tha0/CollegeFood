@@ -40,7 +40,7 @@ footer {
     width: 980px;
     height: 300px;
     background-color: #d6d6d6;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-top: 30px;
 }
 
@@ -193,7 +193,3 @@ img.sko{
     font-size: 10px;
     font-family: Times New Roman;
 } 
-
-@page{
-    padding: 20px;
-}
