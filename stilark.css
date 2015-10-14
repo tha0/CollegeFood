@@ -83,12 +83,7 @@ input.text{
     border: none;
 }
 
-textarea.message {
-    height: 100px;
-    width: 250px;
-    border-radius: 3px;
-    border: none;
-}
+
 
 .overskrift{
     font-family: Times New Roman;
