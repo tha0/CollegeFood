@@ -62,7 +62,7 @@ h3{
 
 div.sosialt {
     float: left;
-    margin-top: 200px;
+    margin-top: 150px;
     height: auto;
 }
 
@@ -233,3 +233,4 @@ img.sko{
 .imageHolder:hover .caption { 
     opacity: 0.8; 
 }
+
